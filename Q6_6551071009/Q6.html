@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Bài tập 6" content="Huynh Nguyen Bon">
+        <title>HTML Form Test</title>
+    </head>
+    <body>
+        <h3><b>HTML Form Test</b></h3>
+        <h1 align="right"><font color="maroon">EX-10</font></h1>
+        <form>
+            <table cellpadding="5">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><input type="text" name="address"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" multiple></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="sports">Sports
+                        <input type="checkbox" name="hobby" value="movies">Movies
+                        <input type="checkbox" name="hobby" value="travelling">Travelling
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <select name="country">
+                            <option>Nepal</option>
+                            <option>VietNam</option>
+                            <option>USA</option>
+                            <option>China</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Message</td>
+                    <td><textarea rows="5" cols="30" name="message"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
